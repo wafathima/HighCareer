@@ -1,0 +1,14 @@
+{
+  "name": "@highcareer/api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@highcareer/database": "^1.0.0"
+  }
+}
